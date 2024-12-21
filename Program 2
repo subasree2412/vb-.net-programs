@@ -18,14 +18,14 @@ InitializeComponent();
 private void button1_Click(object sender, EventArgs e)
 {
 int a;
-a = Convert.ToInt32(vote1.Text);
-if (a&gt;=18)
+a = Convert.ToInt32(textBox1.Text);
+if (a>=18)
 {
-MessageBox.Show(&quot;Eligibility To Vote !!&quot;);
+MessageBox.Show("Eligibility To Vote !!");
 }
 else
 {
-MessageBox.Show(&quot;Not Eligibility To Vote !!&quot;);
+MessageBox.Show("Not Eligibility To Vote !!");
 }
 }
 }
